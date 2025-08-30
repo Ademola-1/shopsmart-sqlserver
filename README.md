@@ -33,4 +33,18 @@ erDiagram
   DIM_CUSTOMER ||--o{ FACT_RETURNS : customer_key
   DIM_DATE ||--o{ FACT_RETURNS : date_key
   FACT_SALES ||--o{ FACT_RETURNS : sale_id
+```
 
+## Screenshots
+> Query + grid captured together in SSMS.
+
+- **Monthly Revenue & Margin (YoY)**  
+  ![YoY](docs/yoy_rev_margin.png)
+- **Channel Mix (MoM Δ)**  
+  ![Channel Mix](docs/channel_mix.png)
+- **Return Rate by Category & Reason**  
+  ![Returns](docs/return_rate_by_category.png)
+- **Top-3 SKUs per Store by Margin**  
+  ![Top SKUs](docs/top_skus_by_margin.png)
+- **Cohort Retention (last 6 cohorts)**  
+  ![Cohorts](docs/cohort_retention.png)
